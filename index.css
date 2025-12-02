@@ -1,0 +1,49 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    margin: 0;
+    background-color: rgb(35,35,35);
+    color:white;
+}
+
+input {
+    display: block;
+}
+
+textarea{
+    resize: none;
+}
+
+.container {
+    padding: 32px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 400px;
+}
+
+.field-element {
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgb(224, 78, 193) ;
+    padding: 8px 16px;
+    border-radius: 16px;
+}
+
+.btn-submit{
+    border: 1px solid rgb(224, 78, 193) ;
+    border-radius: 16px;
+    background-color: rgb(224, 78, 193);
+    padding: 8px;
+}
+
+.btn-submit:hover{
+    background-color: rgb(199, 56, 168);
+    box-shadow: 0 2px 4px 2px  rgba(226, 138, 207, 0.479);
+    color: white;
+}
