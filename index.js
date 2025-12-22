@@ -84,3 +84,8 @@ for (let ovejas = 0; ovejas < 50; ovejas++) {
 
 }
 
+const username = "Pedro Ezequiel"
+
+const greeting = `"Hola ${username} , bienvenido!`
+
+console.log(greeting)
